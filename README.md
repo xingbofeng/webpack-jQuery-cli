@@ -1,8 +1,6 @@
 # webpack-jQuery-cli
 基于webpack的jQuery脚手架，快速进行移动端的jQuery页面开发。
 
-## 运行效果
-
 ## 技术栈
 
 * jQuery
