@@ -34,14 +34,14 @@
 │       │    ├── Header.html
 │       │    ├── index.js
 │       │    └── style.css
-│   	├─── Main
-│   	│    ├── Main.html
-│   	│    ├── index.js
-│   	│    └── style.css
-│   	└─── Footer
-│   	     ├── Footer.html
-│   	     ├── index.js
-│   	     └── style.css
+│   	  ├─── Main
+│   	  │    ├── Main.html
+│   	  │    ├── index.js
+│   	  │    └── style.css
+│   	  └─── Footer
+│   	      ├── Footer.html
+│   	      ├── index.js
+│   	      └── style.css
 └── public
     ├── index.html
     └── bundle.js
@@ -52,6 +52,10 @@
 ### `git clone https://github.com/xingbofeng/webpack-jQuery-cli.git`
 
 下载本项目
+
+### `npm install`
+
+安装依赖
 
 ### `npm start`
 
