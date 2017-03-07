@@ -14,20 +14,21 @@
 ## 项目结构
 
 ```
-├── .eslintrc
+├── .eslintrc :eslint代码检查规范
 ├── .gitignore
 ├── package.json
-├── app.js
-├── webpack.config.js
-├── LICENSE
+├── app.js :项目入口文件
+├── webpack.config.js :webpack 相关配置文件
+├── LICENSE :项目LICENSE
 ├── src
-│   ├── main.js
-│   ├── normalize.css
-│   ├── style.css
-│   ├── lib
-│   │   └── images
+│   ├── main.js :组件分发入口文件
+│   ├── routes.js :路由配置文件
+│   ├── normalize.css :css reset
+│   ├── style.css :全局样式文件
+│   ├── lib :存放静态资源文件
+│   │   └── images :存放
 │   │       └── image.jpg
-│   └── component
+│   └── components :存放项目组件，集成jQuery
 │       ├── Header
 │       │    ├── Header.html
 │       │    ├── index.js
@@ -40,7 +41,7 @@
 │   	      ├── Footer.html
 │   	      ├── index.js
 │   	      └── style.css
-└── public
+└── public :打包后的项目代码
     ├── index.html
     └── bundle.js
 ```
@@ -57,7 +58,7 @@
 
 ### `npm start`
 
-在开发环境运行项目，启动成功后，在浏览器打开http://localhost:2017可以访问。
+在开发环境运行项目，启动成功后，在浏览器打开`http://localhost:2017`可以访问。
 当你修改项目中的文件并保存后，应用进程会重新加载，如果有错误会在终端显示。
 
 ### `npm run dist`
