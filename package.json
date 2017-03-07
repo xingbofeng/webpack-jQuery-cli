@@ -4,7 +4,7 @@
   "description": "webpack-jQuery-cli",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --devtool eval --progress --colors --hot",
     "dist": "webpack",
     "test": "test"
   },
