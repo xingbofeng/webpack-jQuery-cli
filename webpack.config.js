@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var $ = require('jquery');
+var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   devtool: 'eval-source-map', //配置生成Source Maps
@@ -46,6 +47,7 @@ module.exports = {
       $: "jquery",
       jQuery: "jquery",
       "window.jQuery": "jquery"
-    })
+    }),
+    new UglifyJSPlugin()
   ]
 }
